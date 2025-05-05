@@ -1,0 +1,22 @@
+hr {
+  margin-top: 2rem;
+}
+
+.footer_container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-info {
+  color: rgb(220, 218, 218);
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.footer_name {
+  color: rgb(220, 218, 218);
+  font-weight: 900;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.contactbanner_style{
+    padding: 10rem 0;
+}
+
+.contact_banner_container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contactbanner_wrapper{
+    background-color: var(--second-black);
+    border-radius: 12px;
+    padding: 5rem 0rem;
+    text-align: center;
+    height: 20rem;
+}
+
+.para {
+    text-align: center;
+}
+
+
+.contactbanner_heading h3{
+    font-size: 2.2rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: var(--text-color1);
+}
+
+@media (max-width: 768px) {
+    .contactbanner_heading{
+        font-size: 1.8rem
+    }
+    
+}

@@ -1,0 +1,20 @@
+.serviceitem_styles{
+    text-align: center;
+}
+
+.servicesitem_icon svg{
+    font-size: 3rem;
+    color: var(--green-1);
+}
+
+.servicesItem_title{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color1);
+}
+
+.para p{
+    font-size: 18px;
+    margin-top: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.services-style {
+    padding: 10rem 0;
+}
+
+.services-allItems{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .services-allItems{
+        flex-direction: column;
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 5rem;
+        gap: 5rem;
+        text-align: left;
+    }
+}

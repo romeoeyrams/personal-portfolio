@@ -1,0 +1,157 @@
+/* General styling for the project cards container */
+.projects {
+    /* max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: white;*/
+    margin-top: 5rem;
+    
+  }
+  .projects-title{
+    margin-left: -12rem;
+  }
+  
+  
+  .project h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-family: 'ui-sans-serif', sans-serif;
+  }
+  
+
+  .cards-wrapper {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 100%;
+    row-gap: 5rem;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .card {
+    border-radius: 8px;
+    height: 26rem;
+    width: 220px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 5rem;
+  }
+  
+
+  .card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 2rem;
+  }
+  
+
+  .card-content {
+    padding: 20px;
+  }
+  
+
+  .card-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .view_project{
+    margin-top: 1.3rem;
+  }
+  
+
+  .card-content p {
+    font-size: 1rem;
+    color: var(--text-color2);
+    line-height: 1.2;
+  }
+  
+ 
+  .card:hover {
+    background: #0b0b0b;
+    border: 1px solid #333;
+    animation: wiggle 3s linear;
+    transform: scale(1.10);
+    transition: 0.3s;
+  }
+  @keyframes wiggle {
+    0%, 7%
+    {
+        transform: rotateZ(0);
+    }
+    15%
+    {
+        transform: rotateZ(-15deg);
+    }
+    20%
+    {
+        transform: rotateZ(10deg);
+    }
+    25%
+    {
+        transform: rotateZ(-10deg);
+    }
+    30%
+    {
+        transform: rotateZ(6deg);
+    }
+    35%
+    {
+        transform: rotateZ(-4deg);
+    }
+    40%, 100%
+    {
+        transform: rotateZ(0);
+    }
+}
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cards-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  
+    .card {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .card-content h3 {
+      font-size: 1rem;
+    }
+  
+    .card-content p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards-wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-cards-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .card-content h3 {
+      font-size: 1.2rem;
+    }
+  
+    .card-content p {
+      font-size: 0.85rem;
+    }
+  }
+  

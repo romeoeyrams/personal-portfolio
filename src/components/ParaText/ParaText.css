@@ -1,0 +1,16 @@
+.para {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--text-color2);
+    text-align: left;
+}
+
+
+
+
+@media (max-width: 768px){
+    .para-style { font-size:1rem;
+    }
+}

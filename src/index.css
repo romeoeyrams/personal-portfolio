@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #000;
+  --second-black: #0f0f0f;
+  --icon-black: #0b0b0b;
+  --text-color: #fff;
+  --text-color1: #ced6f3;
+  --text-color2: #9398aa;
+  --grey-1: #bcb4b4;
+  --grey-2: #363636;
+  --green-2: #5dd62c;
+  --green-1: #77db89;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --html-icon-color:#ed5900;
+  overflow-x: hidden;
+}
+
+html{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);  
+}
+
+ul, li{
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.container{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Smooth Scroll  */
+[data-scrollbar] {
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--text-color);
+  .scroll-content {
+    background-color: var(--text-color);
+  }
+  .scrollbar-track.scrollbar-track-y {
+    background: var(--text-color);
+    .scrollbar-thumb-y {
+      background: var(--text-color);
+    }
+  }
+}
