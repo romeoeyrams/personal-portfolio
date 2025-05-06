@@ -39,7 +39,7 @@ function About() {
         >
           <SectionTitle heading="" subheading="Let me introduce myself" />
           <div className="about-info">
-            Hi, my name is Romeo Colby Eyrams. I'm a Ghana-based software
+            Hi, my name is <b>Romeo Colby Eyrams</b>. I'm a Ghana-based software
             engineer who specializes in building exceptional web applications.
             I've grown from simply enjoying problem-solving to dedicating myself
             to blending design with function, crafting interfaces hat are both
